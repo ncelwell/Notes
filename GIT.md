@@ -50,3 +50,16 @@ Untracked files:
 	GIT.md
 Files that are not commited and modified are README.md and new files that are
 not commited are .gitignore and GIT.md
+
+### Add files to be staged for commit
+To add files to be staged for your next commit, issue the command"
+git add your_filename (or use wildcard to add all *), for example,
+git add GIT.md to just add the one file or git add * to add all files.
+
+### Commit your files (record changes in your local repository)
+To record the changes in you local repository issue the command:
+git commit -m "Your commit message here"
+
+## Push your files (record changes in your remote repository)
+To push changes to the remote repository on the master branch issue the 
+command: git push origin master
